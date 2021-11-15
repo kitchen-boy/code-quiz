@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUIZ PAGE</title>
-    <link rel="stylesheet" href=.assets/css/style.css>
-    <link rel="stylesheet" href=".assets/game.css">
+    <title>Questions Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/game.css">
 </head>
 <body>
+    <header>
+        <a href="/highscores.html" id ="highscore-btn" style="text-decoration: none; color:blueviolet">View high scores</a>
+        <a id="countdown">Time: 0</a>
     <div class="container">
         <div id="game" class="justify-center flex-column">
             <div id="hud">
@@ -19,14 +22,14 @@
                 </div>    
                 
             </div>
-            <div id="question">Is JavaScript case-sensitive?</div>
+            <h2 class="question">Is JavaScript case-sensitive?</h2>
             <div class="choice-container">
             <p class="choice-prefix">1.</p>
-            <p class="choice-text" data-number="1">Yes</p>
+            <p class="choice-text" data-number="1."> Yes</p>
             </div>
             <div class="choice-container">
             <p class="choice-prefix">2.</p>
-            <p class="choice-text" data-number="2.">No</p>
+            <p class="choice-text" data-number="2."> No</p>
             </div>
 
         </div>
